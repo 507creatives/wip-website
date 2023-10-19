@@ -11,7 +11,7 @@ export default function Home() {
           <source src="/507creatives.webm" type="video/webm"></source>
         </video>
         <h1 className="text-white text-[48px] font-bold uppercase max-[500px]:text-[40px]">
-          Hi! Work in progress. DUPA
+          Hi! Work in progress.
         </h1>
         <h2 className="text-white">
           <span className="uppercase">Contact us!</span> mamsprawe@507.com.pl
