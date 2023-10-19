@@ -22,21 +22,59 @@ const partners = [
   "rimmel",
   "sally-hansen",
   "vichy",
+  "adidas",
+  "armani",
+  "biotherm",
+  "bourjois",
+  "danone",
+  "eucerin",
+  "fanta",
+  "garnier",
+  "kinogram",
+  "loreal",
+  "matrix",
+  "maxfactor",
+  "maybelline",
+  "misssporty",
+  "nyx",
+  "pudliszki",
+  "rexona",
+  "rimmel",
+  "sally-hansen",
+  "vichy",
+  "adidas",
+  "armani",
+  "biotherm",
+  "bourjois",
+  "danone",
+  "eucerin",
+  "fanta",
+  "garnier",
+  "kinogram",
+  "loreal",
+  "matrix",
+  "maxfactor",
+  "maybelline",
+  "misssporty",
+  "nyx",
+  "pudliszki",
+  "rexona",
+  "rimmel",
+  "sally-hansen",
+  "vichy",
 ];
 
 export default function Partners() {
   return (
-    <div className={styles.partners}>
-      {/* {new Array(30).fill("test").map((word, index) => (
-        <span key={index}>
-          <p className="text-white">{word}</p>
-        </span>
-      ))} */}
-      {partners.map((partner, index) => {
-        <span key={index}>
-          <Image src={`/brands/${partner}.svg`} alt={partner} />
-        </span>;
-      })}
-    </div>
+    <section className="pt-[70px] pb-[30px]">
+      <h3 className={styles.heading}>Our partners:</h3>
+      <div className={styles.partners}>
+        {partners.map((partner, index) => (
+          <span key={index}>
+            <img src={`/brands/${partner}.svg`} alt={partner} />
+          </span>
+        ))}
+      </div>
+    </section>
   );
 }

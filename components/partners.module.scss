@@ -1,20 +1,17 @@
+.heading {
+  @apply text-[24px] text-white text-center;
+}
+
 .partners {
-  @apply border-2 border-solid border-black;
-  @apply rounded-tr-lg rounded-bl-lg;
-  @apply text-2xl overflow-hidden;
-  @apply flex items-center;
-  @apply py-4 mb-10 gap-10;
+  @apply flex items-center gap-[40px];
+  @apply max-w-[1340px];
+  @apply overflow-hidden;
 
   span {
-    @apply flex uppercase items-center text-center gap-10;
     animation: slide 30s linear infinite;
 
     img {
-      @apply m-0 whitespace-nowrap;
-    }
-
-    svg {
-      @apply min-w-[57px];
+      @apply min-w-[150px];
     }
   }
 }
@@ -24,6 +21,6 @@
     transform: translate3d(0, 0, 0);
   }
   100% {
-    transform: translate3d(-2010px, 0, 0);
+    transform: translate3d(-3800px, 0, 0);
   }
 }
