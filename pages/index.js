@@ -15,9 +15,9 @@ export default function Home() {
         <meta name="twitter:title" content="Home | 507 CREATIVES" />
         <meta name="twitter:image" content="/ogimage.png" />
       </Head>
-      <main className="flex flex-col justify-end w-[100vw] h-[100vh]">
+      <main className="flex flex-col justify-center w-[100vw] h-[100vh]">
         <div className="flex flex-col items-center gap-[20px] px-[60px] text-center">
-          <video className="video" autoPlay loop muted>
+          <video className="video pt-[300px]" autoPlay loop muted>
             <source
               src="/507creatives.mov"
               type='video/mp4; codecs="hvc1"'

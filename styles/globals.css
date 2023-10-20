@@ -14,10 +14,33 @@ html {
 }
 
 main {
+  overflow-x: hidden;
   font-family: "Oswald";
   background: url(/background.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+video::-webkit-media-controls-overlay-play-button {
+  display: none;
+}
+
+*::-webkit-media-controls-panel {
+  display: none !important;
+
+  -webkit-appearance: none;
+}
+
+*::--webkit-media-controls-play-button {
+  display: none !important;
+
+  -webkit-appearance: none;
+}
+
+*::-webkit-media-controls-start-playback-button {
+  display: none !important;
+
+  -webkit-appearance: none;
 }
