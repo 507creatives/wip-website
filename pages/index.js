@@ -28,7 +28,8 @@ export default function Home() {
             Hi! Work in progress.
           </h1>
           <h2 className="text-white">
-            <span className="uppercase">Contact us!</span> mamsprawe@507.com.pl
+            <p className="uppercase">Contact us!</p>
+            <p>mamsprawe@507.com.pl</p>
           </h2>
           <Partners />
         </div>

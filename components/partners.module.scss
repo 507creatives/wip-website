@@ -10,6 +10,10 @@
   span {
     animation: slide 30s linear infinite;
 
+    .small {
+      @apply min-w-[100px] ml-[10px];
+    }
+
     img {
       @apply min-w-[150px];
     }
@@ -21,6 +25,6 @@
     transform: translate3d(0, 0, 0);
   }
   100% {
-    transform: translate3d(-3800px, 0, 0);
+    transform: translate3d(-3720px, 0, 0);
   }
 }

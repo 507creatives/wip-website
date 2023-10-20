@@ -71,7 +71,15 @@ export default function Partners() {
       <div className={styles.partners}>
         {partners.map((partner, index) => (
           <span key={index}>
-            <img src={`/brands/${partner}.svg`} alt={partner} />
+            {partner === "fanta" || partner === "eucerin" ? (
+              <img
+                className={styles.small}
+                src={`/brands/${partner}.svg`}
+                alt={partner}
+              />
+            ) : (
+              <img src={`/brands/${partner}.svg`} alt={partner} />
+            )}
           </span>
         ))}
       </div>
