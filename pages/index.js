@@ -7,11 +7,16 @@ export default function Home() {
       <Head>
         <title>HOME | 507 creatives</title>
         <meta name="description" content="Hi! Work in progress." key="desc" />
-        <meta property="og:title" content="Hi! Work in progress." />
+        <meta property="og:title" content="HOME | 507 creatives" />
         <meta property="og:description" content="Hi! Work in progress." />
+        <meta property="og:image" content="/ogimage.png" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="507 CREATIVES" />
+        <meta name="twitter:title" content="Home | 507 CREATIVES" />
+        <meta name="twitter:image" content="/ogimage.png" />
       </Head>
       <main className="flex flex-col justify-end w-[100vw] h-[100vh]">
-        <div className="flex flex-col items-center px-[60px] text-center">
+        <div className="flex flex-col items-center gap-[20px] px-[60px] text-center">
           <video className="video" autoPlay loop muted>
             <source
               src="/507creatives.mov"

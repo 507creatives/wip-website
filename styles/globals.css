@@ -10,8 +10,11 @@
 }
 
 html {
-  font-family: "Oswald";
   background-color: black;
+}
+
+main {
+  font-family: "Oswald";
   background: url(/background.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
