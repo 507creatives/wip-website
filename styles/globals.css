@@ -2,7 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/Oswald.ttf");
+}
+
 html {
+  font-family: "Oswald";
   background-color: black;
   background: url(/background.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
